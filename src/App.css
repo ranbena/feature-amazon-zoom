@@ -1,0 +1,59 @@
+header .top {
+  height: 60px;
+  background-color: #131921;
+}
+
+header .bottom {
+  height: 39px;
+  background-color: #232f3e;
+}
+
+section {
+  padding: 54px 30px;
+  display: grid;
+  grid-template-columns: 340px auto 340px;
+  gap: 40px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 30px;
+}
+
+.content {
+  position: relative;
+}
+
+.full {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  right: 0;
+  aspect-ratio: var(--ratio);
+
+  background-position-x: calc(100% * var(--x));
+  background-position-y: calc(100% * var(--y));
+  background-size: var(--size);
+}
+
+.preview {
+  position: relative;
+}
+
+.marker {
+  pointer-events: none;
+  position: absolute;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=);
+}
+
+img {
+  vertical-align: bottom;
+  width: 100%;
+}
