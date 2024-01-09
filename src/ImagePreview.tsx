@@ -26,7 +26,7 @@ const ImagePreview: React.FC<IProps> = ({
         ? ([
             posStyle.left / (elBounds.current.width - MARKER_WIDTH),
             posStyle.top / (elBounds.current.height - MARKER_HEIGHT),
-          ] as [number, number])
+          ] satisfies [number, number])
         : null;
     onPositionChanged(value);
   }, [posStyle, onPositionChanged]);
