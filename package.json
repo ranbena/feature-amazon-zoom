@@ -1,6 +1,7 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "feature-amazon-zoom",
+  "author": "Ran Byron <ranbena@gmail.com>",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
