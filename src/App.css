@@ -11,7 +11,7 @@ header .bottom {
 section {
   padding: 54px 30px;
   display: grid;
-  grid-template-columns: 340px auto 340px;
+  grid-template-columns: 340px auto;
   gap: 40px;
   text-align: left;
 }
@@ -40,7 +40,7 @@ p {
 
   background-position-x: calc(100% * var(--x));
   background-position-y: calc(100% * var(--y));
-  background-size: var(--size);
+  background-size: calc(100% * var(--size));
 }
 
 .preview {
